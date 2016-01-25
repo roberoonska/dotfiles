@@ -21,8 +21,10 @@
 * [screenfetch](https://github.com/KittyKatt/screenFetch) -- System Info
 * [stylish](https://userstyles.org/) -- Modify Firefox CSS
 * [Twily's CSS](http://twily.info/firefox/stylish/firefox-css#view) -- Firefox Theme
+* [Gummi](https://github.com/alexandervdm/gummi) -- LaTeX Editor
+* [vlc](http://www.videolan.org/vlc/index.html) -- Video Player
 
-##stuff I made/modified:
+##stuff I made/heavily modified:
 * [Various Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscripts) -- Terminal Color Scheme Scripts
 * [日本語を読めません](https://github.com/roberoonska/dotfiles/tree/master/Homepage) -- "I can't read Japanese"
 * [Wikipedia](https://github.com/roberoonska/dotfiles/blob/master/Wikipedia%20CSS%20%28Lupurus%20Modified%29) -- Website CSS
