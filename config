@@ -1,0 +1,253 @@
+# Constants
+
+set $mod Mod4
+
+#colors
+set $bgdark #5B3A41
+set $bglight #8C6A74
+
+set $bgtrans argb:BB5B3A41
+
+set $white #ffffff
+set $red #a54242
+set $green #8c9440
+set $yellow #dfa752
+set $blue #5f819d
+set $purple #85678f
+set $teal #5e8d87
+
+set $lred #cc6666
+set $lgreen #b5bd68
+set $lyellow #f0c674
+set $lblue #81a2be
+set $lpurple #b294bb
+set $lteal #8abeb7
+
+
+#workspace labels
+set $ws1 "1  surf"
+set $ws2 "2  work"
+set $ws3 "3  view"
+set $ws4 "4  torr"
+set $ws5 "5  play"
+set $ws6 "6  chat"
+set $ws7 "7  misc"
+set $ws8 "8  misc"
+set $ws9 "9  misc"
+set $ws10 "10  term"
+
+
+
+# General Configuration
+
+floating_modifier Ctrl
+font pango:Segoe UI 16
+for_window [class="^.*"] border pixel 10
+gaps inner 75
+gaps outer 0
+#smart_borders yes
+#focus_follows_mouse no
+focus_on_window_activation focus
+
+
+
+# start a terminal
+bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+t exec i3-sensible-terminal
+
+# kill focused window
+bindsym $mod+c kill
+
+#launch rofi
+bindsym $mod+q exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -p "run: " -lines 3 -eh 2 -width 100 -padding 800 -bw 0 -bc "$bgtrans" -bg "$bgtrans" -fg "$white" -hlbg "$bgtrans" -hlfg "$bgdark" -font "Segoe UI 50" -hide-scrollbar'
+
+bindsym --release Super_L exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -p "run: " -lines 3 -eh 2 -width 100 -padding 800 -bw 0 -bc "$bgtrans" -bg "$bgtrans" -fg "$white" -hlbg "$bgtrans" -hlfg "$bgdark" -font "Segoe UI 50" -hide-scrollbar'
+
+#Rofi web search
+bindsym $mod+g exec --no-startup-id /home/rob/.scripts/Rofi_Search
+
+#open thunar
+bindsym $mod+z exec thunar
+
+#take screenshot
+bindsym Print exec scrot '%Y-%m-%d-%H:%M:%S_$wx$h_scrot.png' -e 'mv $f /home/rob/Pictures/Screenshots/'
+
+# change focus
+bindsym $mod+a focus left
+bindsym $mod+s focus down
+bindsym $mod+w focus up
+bindsym $mod+d focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+a move left
+bindsym $mod+Shift+s move down
+bindsym $mod+Shift+w move up
+bindsym $mod+Shift+d move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1 
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+#move to previous workspace
+bindsym $mod+Tab workspace back_and_forth
+
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exit
+
+# resize window (you can also use the mouse for that)
+bindsym $mod+r mode "  "
+mode "  " {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# Window Colours
+#                         border   background text    indicator
+  client.focused          $blue    $blue      $white  $blue
+  client.focused_inactive $bglight $bglight   $white  $bglight 
+  client.unfocused        $bgdark  $bgdark    $white  $bgdark
+  client.urgent           $red     $red       $white  $red
+
+# Bar
+  bar {
+    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    position top
+    strip_workspace_numbers yes
+    tray_output none
+
+colors{
+background $bgdark
+#                   border   background text
+focused_workspace   $blue    $blue      $white
+active_workspace    $red     $red       $white
+inactive_workspace  $bgdark  $bgdark    $white
+urgent_workspace    $red     $red       $white
+binding_mode        $purple  $purple    $white
+}
+
+#possible rofi?
+#bindsym button3 exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -p " run: " -lines 5 -eh 2 -width 100 -padding 800 -bw 0 -bc "$bgtrans" -bg "$bgtrans" -fg "$white" -hlbg "$bgtrans" -hlfg "$bgdark" -font "Segoe UI 50" -hide-scrollbar'
+
+}
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 1 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 1 -5% #decrease sound volume
+bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
+
+bindsym $mod+F12 exec pactl set-sink-volume 1 +5% #increase sound volume
+bindsym $mod+F11 exec pactl set-sink-volume 1 -5% #decrease sound volume
+bindsym $mod+F10 exec pactl set-sink-mute 0 toggle # mute sound
+
+
+
+# Sreen brightness controls
+bindsym $mod+F6 exec xbacklight -inc 5 # increase screen brightness
+bindsym $mod+F5 exec xbacklight -dec 5 # decrease screen brightness
+
+#makes programs open on their appropriate workspaces
+assign [class="Firefox" window_role="^(?!GtkFileChooserDialog)"] $ws1
+assign [class="Evince" ] $ws2
+assign [class="libreoffice-writer"] $ws2
+assign [class="Gummi" ] $ws2
+assign [class="vlc"] $ws3
+assign [class="Transmission"] $ws4
+
+#programs that open on start
+exec_always feh --bg-scale /home/rob/Pictures/wallpaper.png
+exec_always compton
+exec synclient HorizTwoFingerScroll=1
+exec syndaemon -i 0.3 -K -d -R
+#exec xinput set-prop 14 "Synaptics Palm Detection" 1
+
+
+exec dropbox start
+
+# Correct handling of floating windows
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="dialog"] floating enable
+for_window [window_role="menu"] floating enable
+for_window [window_role="Preferences"] floating enable
+
+#searchmonkey floating
+for_window [class="Searchmonkey"] floating enable, move position center, resize set 2000 1073
+
+#ahoviewer center and and correct size for 1920x1080 pics (leave on "remember window size")
+for_window [class="Ahoviewer"] floating enable, move position center#, resize set 2000 1073
+
+
+#lockscreen 
+bindsym $mod+x exec /home/rob/.scripts/lock
+
