@@ -19,6 +19,6 @@
 * [Twily's CSS](http://twily.info/firefox/stylish/firefox-css#view) -- Firefox Theme
 
 ##stuff I made/modified:
-* [Zelda Colorscript]() -- Terminal Color Scheme Script
-* [日本語を読めません]() -- "I can't read Japanese"
-* [Wikipedia]() -- CSS
+* [Zelda Colorscript](https://github.com/roberoonska/dotfiles/blob/master/colorscripts/rupees) -- Terminal Color Scheme Script
+* [日本語を読めません](https://github.com/roberoonska/dotfiles/tree/master/Homepage) -- "I can't read Japanese"
+* [Wikipedia](https://github.com/roberoonska/dotfiles/blob/master/Wikipedia%20CSS%20%28Lupurus%20Modified%29) -- CSS
