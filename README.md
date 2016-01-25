@@ -1,10 +1,14 @@
 # dotfiles
 
-![clean desktop](http://i.imgur.com/YEzCAyv.jpg)
+![clean desktop](http://i.imgur.com/qOkgtxd.jpg)
 
-![terminal colorscheme](http://i.imgur.com/DvsFfM8.jpg)
+![firefox and screenfetch](http://i.imgur.com/DUYgrwi.jpg)
 
-![firefox css](http://i.imgur.com/DQrvEWE.jpg)
+![fake working](http://i.imgur.com/Pnevk3F.jpg)
+
+![anime](http://i.imgur.com/cnDCno6.jpg)
+
+![terminal colorscheme](http://i.imgur.com/HgIGlOg.jpg)
 
 ##files/applications
 * [i3](http://i3wm.org/) -- Tiling Window Manager
@@ -19,6 +23,6 @@
 * [Twily's CSS](http://twily.info/firefox/stylish/firefox-css#view) -- Firefox Theme
 
 ##stuff I made/modified:
-* [Zelda Colorscript](https://github.com/roberoonska/dotfiles/blob/master/colorscripts/rupees) -- Terminal Color Scheme Script
+* [Various Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscripts) -- Terminal Color Scheme Scripts
 * [日本語を読めません](https://github.com/roberoonska/dotfiles/tree/master/Homepage) -- "I can't read Japanese"
-* [Wikipedia](https://github.com/roberoonska/dotfiles/blob/master/Wikipedia%20CSS%20%28Lupurus%20Modified%29) -- CSS
+* [Wikipedia](https://github.com/roberoonska/dotfiles/blob/master/Wikipedia%20CSS%20%28Lupurus%20Modified%29) -- Website CSS
