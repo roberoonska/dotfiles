@@ -37,18 +37,15 @@ BODY { COLOR: #8C6A74 }
 	font-weight:bold;
 	font-size:36pt;
 	color:#5f819d;
-	margin-bottom:10px;
-        text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+	margin-bottom:10px;}
 
-table {
+table { 
+	opacity:1;
 	margin-left:auto;
 	margin-right:auto;
 	background:#ffffff;
 	padding:10px;
 	font-family:sans-serif;
-	border-style:solid;
-	border-width:7px;
-	border-color:##8C6A74;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)}
 
 
@@ -67,14 +64,15 @@ table {
 
 <div class="container">
   <div class="helper">
-	<div class="animated bounceInUp">
 
-<!-- The main title, with animation and hovertext -->
+<!-- The main title -->
+<div class="animated fadeInUp">
 <div class="header">
     日本語を読めません
-    </div>
-<!-- Table with titles (with hovertext), dividers, and links; animations timed based on section above -->
+    </div> </div>
+<!-- Table with titles -->
 
+<div class="animated bounceInUp">
 <table>
 
 <TD>
@@ -209,6 +207,7 @@ table {
 <TD>  
 <div class="divider"> »</div>
 <TD>
+<A HREF="https://github.com/roberoonska">Github</A> /
 <A HREF="https://www.reddit.com/r/unixporn">UnixPorn</A> /
 <A HREF="http://deviantart.com">Deviantart</A> /
 <A HREF="http://terminal.sexy/Terminal</A> /
