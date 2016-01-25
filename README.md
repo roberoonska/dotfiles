@@ -4,7 +4,7 @@
 
 ![firefox and screenfetch](http://i.imgur.com/DUYgrwi.jpg)
 
-![fake working](http://i.imgur.com/Pnevk3F.jpg)
+![fake working](http://i.imgur.com/T9XSTlS.jpg)
 
 ![anime](http://i.imgur.com/cnDCno6.jpg)
 
