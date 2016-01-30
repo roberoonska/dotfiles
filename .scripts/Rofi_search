@@ -1,0 +1,12 @@
+#!/bin/bash
+
+bgtrans='argb:BB5B3A41'
+bgdark='#5B3A41'
+white='#FFFFFF'
+
+URL='https://www.google.com/search?q='
+QUERY=$(echo '' | rofi -dmenu -p "web search: " -lines 5 -eh 2 -width 100 -padding 800 -bw 0 -bc "$bgtrans" -bg "$bgtrans" -fg "$white" -hlbg "$bgtrans" -hlfg "$bgdark" -font "Segoe UI 50" -hide-scrollbar)
+if [ -n "$QUERY" ]; then
+  xdg-open "${URL}${QUERY}" 2> /dev/null
+  exec i3-msg [class="^Firefox$"] focus
+fi
