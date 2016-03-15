@@ -12,7 +12,7 @@
 * [rofi](https://github.com/DaveDavenport/rofi) -- Text-based Launcher
 * [compton](https://github.com/chjj/compton) -- Composite Manager (Transparency, shadows, fade)
 * [feh](https://github.com/derf/feh) -- Wallpaper Switcher
-* [fetch](https://github.com/dylanaraps/neofetch) -- System Info
+* [Neofetch](https://github.com/dylanaraps/neofetch) -- System Info
 * [stylish](https://userstyles.org/) -- Modify Firefox CSS
 * [Twily's CSS](http://twily.info/firefox/stylish/firefox-css#view) -- Firefox Theme
 * [Gummi](https://github.com/alexandervdm/gummi) -- LaTeX Editor
