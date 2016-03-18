@@ -2,6 +2,7 @@
 
 
 
+
 #CONSTANTS
 	set $mod Mod4
 
@@ -114,7 +115,7 @@
 	bindsym $mod+z exec thunar
 	bindsym $mod+v exec gedit
 	bindsym $mod+b exec firefox
-	bindsym $mod+Return exec urxvt
+	bindsym $mod+Return exec gnome-terminal
 	#bindsym $mod+t exec urxvt
 
 #launch rofi
@@ -275,9 +276,9 @@ background $bgdark
 	bindsym XF86AudioLowerVolume exec pactl set-sink-volume 1 -5% #decrease sound volume
 	bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
-	bindsym $mod+F12 exec pactl set-sink-volume 1 +5% #increase sound volume
-	bindsym $mod+F11 exec pactl set-sink-volume 1 -5% #decrease sound volume
-	bindsym $mod+F10 exec pactl set-sink-mute 1 toggle # mute sound
+	bindsym $mod+F12 exec '/usr/bin/pulseaudio-ctl' up 5; exec sleep 0.1 && '/home/rob/.scripts/volnoti-handle' #increase sound volume
+	bindsym $mod+F11 exec '/usr/bin/pulseaudio-ctl' down 5; exec sleep 0.1 && '/home/rob/.scripts/volnoti-handle' #decrease sound volume
+	bindsym $mod+F10 exec '/usr/bin/pulseaudio-ctl' mute; exec sleep 0.1 && '/home/rob/.scripts/volnoti-handle' # mute sound
 
 # Sreen brightness controls
 	bindsym $mod+F6 exec xbacklight -inc 10 # increase screen brightness
@@ -308,6 +309,7 @@ background $bgdark
 	exec synclient HorizTwoFingerScroll=1
 	exec syndaemon -i 0.3 -K -d -R
 	exec dropbox start
+	exec volnoti -t 2 -a 0.2
 
 
 
