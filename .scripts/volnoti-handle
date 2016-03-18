@@ -1,0 +1,17 @@
+#!/bin/sh
+
+VOLUME=$(amixer get -D pulse Master | grep "Playback.*\[.*%\]" | head -1 | awk '{print $5;}' | sed 's/\[\(.*\)%\]/\1/')
+STATE=$(amixer get -D pulse Master | grep 'Front Left:' | grep -o "\[off\]")
+
+
+
+# Show volume with volnoti
+if [ $STATE ]; then
+    volnoti-show -m
+elif [ $VOLUME != 0 ]; then
+    volnoti-show $VOLUME
+else
+    volnoti-show -m
+fi
+
+exit 0
