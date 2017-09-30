@@ -20,6 +20,7 @@
 
 ##stuff I made/heavily modified:
 * [Various Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscripts) -- Terminal Color Scheme Scripts
-* [Alphabet for Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscript_alphabet)
+* [Tsumego](https://github.com/roberoonska/dotfiles/blob/master/colorscript_alphabet) -- Colorscript Alphabet
 * [日本語を読めません](https://github.com/roberoonska/dotfiles/tree/master/Homepage) -- "I can't read Japanese"
 * [Wikipedia](https://github.com/roberoonska/dotfiles/blob/master/Wikipedia%20CSS%20%28Lupurus%20Modified%29) -- Website CSS
+* [OGS](https://github.com/roberoonska/dotfiles/blob/master/OGS%20CSS) -- Online Go Client CSS
