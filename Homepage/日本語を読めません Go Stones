@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Roberoonska</title>
+
+<!-- Import animate.css -->
+<link rel="stylesheet" href="animate.css" />
+
+<!-- Import jquery.js -->
+<script src="jquery.js"></script>
+
+
+<style>
+
+A:link { COLOR: #4B505A; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: #4B505A; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: #f2143e; TEXT-DECORATION: none }
+A:hover { COLOR: #f2143e; TEXT-DECORATION: none; font-weight: normal }
+BODY { COLOR: #4B505A }
+
+.container {
+  	display: table;
+  	height: 97%;
+  	position: absolute;
+  	overflow: hidden;
+  	width: 98%;}
+
+.helper {
+  	display: table-cell;
+  	vertical-align: middle;}
+
+
+.header {
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:normal;
+	font-size:36pt;
+	color:#dfa752;
+	margin-bottom:10px;}
+
+table { 
+	opacity:1;
+	margin-left:auto;
+	margin-right:auto;
+	background:#E1D2B4;
+	padding:10px;
+	font-family:sans-serif;
+<!--    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);} -->
+
+
+
+.divider {
+	margin-top:-7pt;
+	margin-bottom:-3pt;
+	margin-left: 3pt;
+	margin-right: 3pt;
+	font-size:16pt;}
+
+</style>
+
+</head>
+<body bgcolor=#4B505A>
+<div class="container">
+  <div class="helper">
+   <div class="animated bounceInUp">
+<!-- The main title -->
+<div class="header">
+    日本語を読めません
+    </div>
+<!-- Table with titles -->
+<table>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+    	Main Sites</a></font></div>
+<TD>  
+<div class="divider">»</div>
+<TD>
+<A HREF="http://www.facebook.com">Facebook</A> /
+<A HREF="http://www.reddit.com">Reddit</A> /
+<A HREF="http:/www.youtube.com/feed/subscriptions/u">Youtube</A> /
+<A HREF="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</A> 
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+    	4chan</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="http://4chan.org/a">a</A> /
+<A HREF="http://4chan.org/b">b</A> /
+<A HREF="http://4chan.org/co">co</A> /
+<A HREF="http://4chan.org/g">g</A> /
+<A HREF="http://4chan.org/mu">mu</A> /
+<A HREF="http://4chan.org/mlp">mlp</A> /
+<A HREF="http://4chan.org/r9k">r9k</A> /
+<A HREF="http://4chan.org/tg">tg</A> /
+<A HREF="http://4chan.org/v">v</A> /
+<A HREF="http://4chan.org/vp">vp</A> /
+<A HREF="http://4chan.org/w">w</A> /
+<A HREF="http://4chan.org/wg">wg</A> 
+
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+	School</a></font></div><TD>  
+<div class="divider">»</div>
+<TD>
+<A HREF="https://gmail.com">Cornell Gmail</A> /
+<A HREF="https://studentcenter.cornell.edu/">SC</A> /
+<A HREF="https://blackboard.cornell.edu/">Bb</A> /
+<A HREF="http://iep.utm.edu">IEP</A> /
+<A HREF="http://plato.stanford.edu">SEP</A> /
+<A HREF="http://philpapers.org/">PP</A> /
+<A HREF="https://www.academia.edu/">Academia</A>
+
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+   	Downloads</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="http://kat.cr/">Kickass</A> /
+<A HREF="http://www.nyaa.se/">Nyaa</A> /
+<A HREF="http://thepiratebay.org">Pirate Bay</A> /
+<A HREF="http://gen.lib.rus.ec/">Libgen</A>
+
+
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+	WebComics</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD> 
+<A HREF="http://xkcd.com">XKCD</A> /
+<A HREF="http://smbc-comics.com">SMBC</A> /
+<A HREF="http://existentialcomics.com">EC</A> /
+<A HREF="http://owlturd.com">Owlturd</A> /
+<A HREF="http://www.webtoons.com/episodeList?titleNo=199">Blue Chair</A>/
+<A HREF="http://mycomicshop.com/">MCS</A>
+
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+	Music</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="http://pitchfork.com">Pitchfork</A> /
+<A HREF="http://rateyourmusic.com">Rateyourmusic</A> /
+<A HREF="http://www.last.fm/user/Roberoonska">Last.fm</A>
+
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+    	Board Games</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="https://online-go.com/">OGS</A> /
+<A HREF="http://boardgamegeek.com/collection/user/Roberoonska">BGG</A> /
+<A HREF="http://en.boardgamearena.com">BG Arena</A> /
+<A HREF="https://www.kickstarter.com/discover/advanced?category_id=34&woe_id=0&sort=magic">Kickstarter</A> /
+<A HREF="http://www.coolstuffinc.com/page/1138">CoolStuffInc</A> 
+
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+    Television</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="http://www.imdb.com/">IMDB</A> / 
+<A HREF="http://netflix.com">Netflix</A> /
+<A HREF="http://showrss.info/">Show RSS</A> /
+<A HREF="http://tvtropes.org/pmwiki/pmwiki.php/Main/HomePage">TvTropes</A>
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+    	Anime</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="http://myanimelist.net/animelist/roberoonska">MAL</A> /
+<A HREF="http://www.animenewsnetwork.com/">ANN</A> /
+<A HREF="http://anichart.net/airing">Airing</A> /
+<A HREF="http://www.shanaproject.com/follows/all/">Shana RSS</A>
+<TR>
+
+<TD>
+<div align="right"><font color=#78461E><a>
+    	Rice</a></font></div>
+<TD>  
+<div class="divider"> »</div>
+<TD>
+<A HREF="https://github.com/roberoonska">Github</A> /
+<A HREF="https://www.reddit.com/r/unixporn">UnixPorn</A> /
+<A HREF="http://deviantart.com">Deviantart</A> /
+<A HREF="http://terminal.sexy/Terminal</A> /
+<A HREF="https://color.adobe.com/">Cc</A> /
+<A HREF="https://pantsu.cat/"> Pantsu.cat </A>
+<TR>
+</TABLE>
+<BR>
+
+</div> </div> </div>
+
+
+</body>
+</html>
