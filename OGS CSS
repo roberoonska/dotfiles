@@ -1,0 +1,127 @@
+@-moz-document domain("online-go.com") { }
+
+/*TEXT*/
+body, input, select, button, svg {
+  font-family: Segoe UI;
+}
+
+body.dark #main-content > div {
+  color: #E1D2B4;
+}
+
+body.dark #NavBar a, body.dark .Dock a {
+    color: #E1D2B4;
+}
+body.dark .chat-container .Player {
+    color: #8abeb7;
+}
+
+
+/*CHAT LOG*/
+body.dark .chat-container {
+  background-color: #4B505A;
+  border:none;
+}
+
+body.dark .chat-container .chat-log {
+  background-color: #4B505A;
+  border:none;
+}
+
+body.dark .chat-container .chat-log.autoscrolling {
+  border:none;
+  
+}
+
+/*BG COLOR*/
+body.dark #main-content > div {
+  background-color: #4B505A;
+}  
+
+/*ZEN MODE*/
+body.dark .MainGobanView.zen {
+    background-color: #4B505A;
+}
+body.dark .MainGobanView .leave-zen-mode-button {
+    color: #ffffff;
+}
+ 
+/*DOCK*/
+body.dark .Dock {
+  background-color: #4B505A;
+   box-shadow: none;
+}
+
+/*NAVBAR*/  
+body.dark #NavBar {
+  background-color: #4B505A;
+  box-shadow: none;
+}
+
+/*RIGHT NAV*/
+body.dark #NavBar .leftnav, body.dark #NavBar .rightnav {
+  background-color: #4B505A;
+  box-shadow: none;
+}
+
+/*PLAYER NAME CONTAINERS*/
+.MainGobanView .players div.in-game-clock .boxed {
+    text-align: left;
+    padding-left: 5px;
+}
+/*BLACK*/
+body.dark .MainGobanView .players .black.player-container {
+  background: none;
+  border: none;
+}
+  
+.MainGobanView .players .black.player-container .player-icon-container {
+  border: 3px solid;
+  border-color: #000;
+}
+.MainGobanView .players .black.player-container {
+    box-shadow: none;
+}
+body.dark .MainGobanView .players #game-black-clock {
+  color: #E1D2B4;
+}
+body.dark .MainGobanView .players .black.player-name-container {
+   color: #000000;
+   font-weight: 700; 
+}
+body.dark .MainGobanView .players .black.player-container {
+    color: #E1D2B4;
+}
+
+/*WHITE*/
+body.dark .MainGobanView .players .white.player-container {
+  background: none;
+}
+.MainGobanView .players .white.player-container .player-icon-container {
+  border: 3px solid;
+  border-color: #fff;
+}
+.MainGobanView .players .white.player-container {
+    box-shadow: none;
+}
+body.dark .MainGobanView .players #game-white-clock {
+  color: #E1D2B4;
+}
+body.dark .MainGobanView .players .white.player-name-container {
+   color: #ffffff;
+  font-weight: 700;
+}
+body.dark .MainGobanView .players .white.player-container {
+    color: #E1D2B4;
+}
+
+/*BUTTONS*/
+body.dark .btn, body.dark a.btn, body.dark button {
+  background: none;
+  color: #8abeb7;
+  border: none;
+  box-shadow: none;
+}
+
+
+/*STONES*/
