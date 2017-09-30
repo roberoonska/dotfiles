@@ -1,8 +1,8 @@
 # dotfiles
 
-![clean desktop](http://i.imgur.com/OVSHstD.jpg)
+![clean desktop](https://i.imgur.com/Lbfodz9.jpg)
 
-![firefox, fetch and colorscript](http://i.imgur.com/PPATQkM.jpg)
+![firefox, fetch, OGS and colorscript font](https://i.imgur.com/FB8ysRh.jpg)
 
 ##files/applications
 * [i3](http://i3wm.org/) -- Tiling Window Manager
@@ -20,5 +20,6 @@
 
 ##stuff I made/heavily modified:
 * [Various Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscripts) -- Terminal Color Scheme Scripts
+* [Alphabet for Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscript_alphabet)
 * [日本語を読めません](https://github.com/roberoonska/dotfiles/tree/master/Homepage) -- "I can't read Japanese"
 * [Wikipedia](https://github.com/roberoonska/dotfiles/blob/master/Wikipedia%20CSS%20%28Lupurus%20Modified%29) -- Website CSS
