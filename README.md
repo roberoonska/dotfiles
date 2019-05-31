@@ -4,7 +4,7 @@
 
 ![firefox, fetch, OGS and colorscript font](https://i.imgur.com/FB8ysRh.jpg)
 
-##files/applications
+## files/applications
 * [i3](http://i3wm.org/) -- Tiling Window Manager
 * [i3-gaps](https://github.com/Airblader/i3) -- Fork Introduces Gaps between Windows
 * [i3blocks](https://github.com/vivien/i3blocks) -- Status Bar
@@ -18,7 +18,7 @@
 * [Gummi](https://github.com/alexandervdm/gummi) -- LaTeX Editor
 * [vlc](http://www.videolan.org/vlc/index.html) -- Video Player
 
-##stuff I made/heavily modified:
+## stuff I made/heavily modified:
 * [Various Colorscripts](https://github.com/roberoonska/dotfiles/blob/master/colorscripts) -- Terminal Color Scheme Scripts
 * [Tsumego](https://github.com/roberoonska/dotfiles/blob/master/colorscript_alphabet) -- Colorscript Alphabet
 * [日本語を読めません](https://github.com/roberoonska/dotfiles/tree/master/Homepage) -- "I can't read Japanese"
